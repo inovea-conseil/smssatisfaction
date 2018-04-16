@@ -1,0 +1,34 @@
+# SMS Satisfaction - Send SMS 
+# Copyright (C) 2017       Inovea-conseil.com     <info@inovea-conseil.com>
+#
+
+#
+# Générique
+#
+Module432413Name = SMS Satisfaction
+Module432413Desc = Envoi de SMS automatiquement aux clients indiqués comme "satisfaits"
+
+#
+# Page d'administration
+#
+MyModuleSetup = Configuration du module
+Settings = Réglages
+smsSatisfactionSetup = Réglages SMS Satisfaction
+smsSatisfactionSetupPage = Indiquez ici les paramètres de connexion à l'API OVH (vous pouvez générer les accès API sur <a href="https://api.ovh.com/createToken/index.cgi?GET=/sms&GET=/sms/*&PUT=/sms/*&DELETE=/sms/*&POST=/sms/*" target="_blank">cette page</a>).
+SMSINTERVENTION_APPLICATION_KEY = Application key
+SMSINTERVENTION_APPLICATION_SECRET = Application secret
+SMSINTERVENTION_CONSUMER_KEY = Consumer key
+CRON_MODULE_DISABLED = Le module cron est désactivé
+
+SMS_CONNEXION_FAILED = Erreur de connexion à votre compte SMS
+SMS_CREDIT_EMPTY = Le crédit de votre compte SMS est vide
+SMS_ERROR_DESTINATAIRE = Le format du numéro du destinataire est incorrect
+character = Caractère(s)
+
+#
+# History
+#
+smsSatisfactionHistory = Historique SMS
+PhoneShort = Tel.
+DateCreationShort = Date d'envoi
+

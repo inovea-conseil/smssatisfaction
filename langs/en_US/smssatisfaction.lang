@@ -1,0 +1,38 @@
+# SMS Satisfaction - Send SMS since FICHINTER card
+# Copyright (C) 2017       Inovea-conseil.com     <info@inovea-conseil.com>
+#
+
+#
+# Generic
+#
+
+Module432413Name = SMS Satisfaction
+Module432413Desc = Sending SMS automatically to "satisfied" customers
+
+#
+# Admin page
+#
+MyModuleSetup = My module setup
+Settings = Settings
+smsSatisfactionSetup = SMS Satisfaction setup
+smsSatisfactionSetupPage = Specify here the connection parameters to the OVH API (You can generate API access on <a href="https://api.ovh.com/createToken/index.cgi?GET=/sms&GET=/sms/*&PUT=/sms/*&DELETE=/sms/*&POST=/sms/*" target="_blank">this page</a>).
+SMSINTERVENTION_APPLICATION_KEY = Application key
+SMSINTERVENTION_APPLICATION_SECRET = Application secret
+SMSINTERVENTION_CONSUMER_KEY = Consumer key
+
+SMS_CONNEXION_FAILED = Error connecting to your SMS account
+SMS_CREDIT_EMPTY = Your SMS account credit is empty
+SMS_ERROR_DESTINATAIRE = Recipient number format incorrect
+CRON_MODULE_DISABLED = Cron module is disable
+
+#
+#
+#
+
+#
+# History
+#
+smsSatisfactionHistory = SMS History
+PhoneShort = Phone
+DateCreationShort = Date send
+

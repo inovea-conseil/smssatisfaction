@@ -1,0 +1,4 @@
+INSERT IGNORE INTO llx_const (name, value, type, note, visible, entity) VALUES ('SMSINTERVENTION_APPLICATION_KEY','','chaine','Smssatisfaction Application Key',0,1);
+INSERT IGNORE INTO llx_const (name, value, type, note, visible, entity) VALUES ('SMSINTERVENTION_APPLICATION_SECRET','','chaine','Smssatisfaction Application Secret',0,1);
+INSERT IGNORE INTO llx_const (name, value, type, note, visible, entity) VALUES ('SMSINTERVENTION_CONSUMER_KEY','','chaine','Smssatisfaction Consumer Key',0,1);
+INSERT IGNORE INTO llx_const (name, value, type, note, visible, entity) VALUES ('SMSSATISFACTION_SMS_CONTENT','','chaine','Smssatisfaction SMS content',0,1);
